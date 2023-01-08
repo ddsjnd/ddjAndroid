@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="11"
+        android:id="@+id/App_name"
+        android:background="#E8EAE8"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#454547"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_home_black_24dp"
+            android:gravity="center"
+            android:textColor="@drawable/bt_selector"
+            android:onClick="Click"
+            android:text="Home"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/text_dashboard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_dashboard_black_24dp"
+            android:gravity="center"
+            android:textColor="@drawable/bt_selector"
+            android:onClick="Click"
+            android:text="Dashboard"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/text_notifications"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_notifications_black_24dp"
+            android:gravity="center"
+            android:onClick="Click"
+            android:textColor="@drawable/bt_selector"
+            android:text="Notificcations"
+
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

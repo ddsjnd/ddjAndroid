@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyAp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <drawable name="unpressed">#000000</drawable>
+    <drawable name="pressed">#FF6200EE</drawable>
+</resources>
